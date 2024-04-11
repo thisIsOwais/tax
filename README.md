@@ -48,16 +48,15 @@ cd tax-calculator-web-app
 - Expected Outcome: The application should handle these edge cases gracefully, providing accurate tax calculations without errors.
 
 ## Screenshots
-![Screenshot (473)](https://github.com/18OWAIS/TaxCalculator/assets/116813362/d7d53691-3aba-46ad-be25-0c447942d386)
-![Screenshot (474)](https://github.com/18OWAIS/TaxCalculator/assets/116813362/dea4737e-8368-4683-9110-8d9934b7f4c2)
+![Screenshot (473)](https://github.com/thisIsOwais/tax/assets/139376412/898310ee-3fe0-4326-bb37-1928e10d9e6c)
+![Screenshot (474)](https://github.com/thisIsOwais/tax/assets/139376412/7fa54b15-760d-44e5-91a4-0c25c84eaddb)
+![Screenshot (475)](https://github.com/thisIsOwais/tax/assets/139376412/0e4164bc-adef-4aa7-bbc7-8548706dc721)
+![Screenshot (476)](https://github.com/thisIsOwais/tax/assets/139376412/d4697507-766f-4dc7-996b-d320c9f3b40f)
 
-![Screenshot (475)](https://github.com/18OWAIS/TaxCalculator/assets/116813362/0f121f6a-af80-438b-90cc-da2109720c68)
-
-![Screenshot (476)](https://github.com/18OWAIS/TaxCalculator/assets/116813362/d8f2684d-cdd9-46f8-bd07-78543146345f)
 
 ## Link to Hosted Web App
 
-[Click here to access the Tax Calculator Web App](https://18owais.github.io/TaxCalculator/)
+[Click here to access the Tax Calculator Web App](https://18owais.github.io/Tax/)
 
 
 
