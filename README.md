@@ -56,7 +56,7 @@ cd tax-calculator-web-app
 
 ## Link to Hosted Web App
 
-[Click here to access the Tax Calculator Web App]((https://thisisowais.github.io/tax/))
+[Click here to access the Tax Calculator Web App](https://thisisowais.github.io/tax/)
 
 
 
