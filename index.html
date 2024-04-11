@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tax Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Tax Calculator</h1>
+  <form id="taxForm">
+    <div class="form-group">
+      <label for="grossIncome">Gross Annual Income (in Lakhs) <span class="tooltip-icon" data-tooltip="Gross Annual Income refers to the total income earned by an individual in a year before taxes and deductions."></span></label>
+      <input type="text" class="form-control" id="grossIncome" required>
+      <span class="error-icon" data-tooltip="Please enter a valid number"></span>
+    </div>
+    <div class="form-group">
+      <label for="extraIncome">Extra Income (in Lakhs) <span class="tooltip-icon" data-tooltip="Extra Income refers to any additional income earned by an individual apart from their primary source of income."></span></label>
+      <input type="text" class="form-control" id="extraIncome">
+      <span class="error-icon" data-tooltip="Please enter a valid number"></span>
+    </div>
+    <div class="form-group">
+      <label for="deductions">Deductions (in Lakhs) <span class="tooltip-icon" data-tooltip="Deductions are expenses that can be subtracted from an individual's gross income to reduce the amount of taxable income."></span></label>
+      <input type="text" class="form-control" id="deductions">
+      <span class="error-icon" data-tooltip="Please enter a valid number"></span>
+    </div>
+    <div class="form-group">
+      <label for="age">Age <span class="tooltip-icon" data-tooltip="Age determines the tax rate applicable for individuals, which varies based on age groups."></span></label>
+      <select class="form-control" id="age">
+        <option value="">Select Age</option>
+        <option value="<40">&lt;40</option>
+        <option value="≥40&<60">&ge;40 &lt;60</option>
+        <option value="≥60">&ge;60</option>
+      </select>
+      <span class="error-icon" data-tooltip="Please select an age"></span>
+    </div>
+    <button type="button" class="btn btn-primary" id="calculateTax">Calculate Tax</button>
+  </form>
+</div>
+
+<div id="taxModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Tax Calculation Result</h2>
+    <p id="taxResult"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
